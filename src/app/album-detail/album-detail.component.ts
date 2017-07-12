@@ -11,7 +11,7 @@ import { AlbumService } from '../album.service';
   providers: [AlbumService]
 })
 
-export class AlbumDetailComponent implements OnInit {
+export class AlbumDetailComponent  {
   albumId: number;
   albumToDisplay: Album;
 
@@ -21,11 +21,11 @@ export class AlbumDetailComponent implements OnInit {
     private albumService: AlbumService
   ) {}
 
-  ngOnInit() {
-    this.route.params.forEach((urlParameters) => {
-    this.albumId = parseInt(urlParameters['id']);
-  });
-    this.albumToDisplay = this.albumService.getAlbumById(this.albumId);
-  }
+  // ngOnInit() {
+  //   this.route.params.forEach((urlParameters) => {
+  //   this.albumId = parseInt(urlParameters['id']);
+  // });
+  //   // this.albumToDisplay = this.albumService.getAlbumById(this.albumId);
+  // }
 
 }
