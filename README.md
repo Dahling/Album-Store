@@ -1,28 +1,49 @@
-# AlbumStore
+# OnlineStore
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
+#### A program to display and manage albums
 
-## Development server
+#### By **Leah Sherrell and Jenna Cooper**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+Keep track of available store albums, add an album as an administrator.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+### Specs
+| Behavior | Example Input | Example Output |
+| :-------------     | :------------- | :------------- |
+| **** |  |  |
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+## Setup/Installation Requirements
+1. Clone this repository.
+2. In the terminal, navigate into the repository and run the following commands:
+  $ npm install
+  $ bower install
+3. Create file 'api-keys.ts' in the app folder
+4. Create a firebase account at https://firebase.google.com/ . On their site choose 'Add Firebase to your web app'.
+5. Place the code snippet they give in the 'api-keys.ts' file
+6. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Known Bugs
+* None
 
-## Running end-to-end tests
+## Technologies Used
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+* Angular2
+* Node - npm
+* Gulp
+* Bower
 
-## Further help
+## Support and contact details
+
+_No help! In emergency dial 9-1-1_
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+### License
+
+*{This software is licensed under the MIT license}*
+
+Copyright (c) 2017 **_{Leah Sherrell and Jenna Cooper}_**
